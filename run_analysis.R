@@ -1,5 +1,5 @@
-#Change directory to UCI HAR Dataset
-setwd("C:/Users/Anshu/Documents/study/R/getting_cleaning_data/UCI HAR Dataset")
+#Change directory to UCI HAR Dataset. UCI HAR Dataset directory is in working directory.
+setwd("UCI HAR Dataset")
 #Read Activity labels and features from directory UCI HAR Dataset
 activity_labels <- read.table("activity_labels.txt")
 features <- read.table("features.txt")
@@ -12,7 +12,7 @@ y_train <- read.table("y_train.txt")
 subject_train <- read.table("subject_train.txt")
 
 #Read Test data from directory : UCI HAR Dataset/test
-setwd("C:/Users/Anshu/Documents/study/R/getting_cleaning_data/UCI HAR Dataset/test")
+setwd("UCI HAR Dataset/test")
 #Read files X_test,y_test
 X_test <- read.table("X_test.txt")
 y_test <- read.table("y_test.txt")
