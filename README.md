@@ -3,6 +3,15 @@ DataScience-GettingandCleaningData
 
 Getting an Cleaning Data
 
+Data can be cleaned and analyzed by running run_analysis.R file. 
+To execute run_analysis.R script, make sure that data directory UCI HAR Dataset is in your working directory
+Script creates 2 output files:
+clean_data.txt : tidy data without analysis i.e complete clean data set
+final_analyzed_data.txt : analyzed data where the dataset comprises of mean for each subject of each activity.
+
+Steps that are carried out by run_analysis.R file
+=================================================
+
 1. Change working directory to UCI HAR Dataset. Assuming that directory "UCI HAR Dataset" is in your working directory.
 2. Read activity_labels.txt and features from directory UCI HAR Dataset
 3. Change working directory to UCI HAR Dataset/train 
